@@ -67,7 +67,7 @@ public class HDFCAccount implements BankInterface {
     public String withdraw(int amount, String enteredPassword) {
         if(enteredPassword.equals(password)){
             if(amount > balance){
-                return "Insufficient balance";
+                return "Insufficient balance, chal nikal";
             }else{
                 balance = balance - amount;
                 return "Amount debited" + amount + "Current balance is" + balance;
