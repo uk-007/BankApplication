@@ -13,7 +13,7 @@ public class SBIAccount implements BankInterface{
         this.balance = balance;
         this.password = password;
 
-        this.rateOfInterest = 6.6;
+        this.rateOfInterest = 2.70;
         this.accountNo = String.valueOf(UUID.randomUUID());
     }
 
